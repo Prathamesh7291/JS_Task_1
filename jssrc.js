@@ -1,12 +1,12 @@
 const bgcol = () => {
-    const random_col = Math.floor(Math.random()*16777215).toString(16);
-    document.body.style.backgroundColor = "#" + random_col; //Used to change the background color into random color generated.
-    hex_cd.innerHTML = "#" + random_col; // Used to display the hexcode.
-  }
-  
-  btn.addEventListener("click", bgcol); // on clicking it will execute the bgcol function.
+  const random_col = Math.floor(Math.random() * 16777215).toString(16);
+  document.body.style.backgroundColor = "#" + random_col; //Used to change the background color into random color generated.
+  hex_cd.innerHTML = "#" + random_col; // Used to display the hexcode.
+};
 
-  bgcol(); //Call
+btn.addEventListener("click", bgcol); // on clicking it will execute the bgcol function.
+
+bgcol(); //Call
 
 /* 
 Function Explaination :
